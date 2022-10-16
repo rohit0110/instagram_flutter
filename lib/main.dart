@@ -6,6 +6,7 @@ import 'package:insta_clone/responsive/responsive_layout.dart';
 import 'package:insta_clone/responsive/web_layout.dart';
 import 'package:insta_clone/utils/colors.dart';
 import 'package:insta_clone/views/login_screen.dart';
+import 'package:insta_clone/views/signup_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
       //   mobileScreenLayout: MobileLayout(),
       //   webScreenLayout: WebLayout(),
       //),
-      home: const LoginScreen(),
+      home: const SignupScreen(),
     );
   }
 }
